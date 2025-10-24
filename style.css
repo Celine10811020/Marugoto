@@ -29,11 +29,11 @@ body{
 }
 
 /* 版面寬度：靠左直排、右上角大標 */
-body>h1, body>details{ max-width: 960px; margin-inline:auto; }
+body>h1, body>details{ max-width: 960px;}
 
 /* Title 右上角對齊、粗黑大字 */
 h1{
-  text-align:right;
+  text-align:center;
   font-weight:900;
   font-size: clamp(2.1rem, 2.2rem + 1.4vw, 3rem);
   margin: 8px auto 12px;
@@ -42,9 +42,7 @@ h1{
 
 /* 主體：用左側髮絲線作為視覺導軌 */
 body>details{
-  border-left: 4px solid var(--accent);
   padding-left: 18px;
-  margin: 8px auto 2px;
 }
 
 /* 第二層之後以虛線細化，維持“縱向”感 */
